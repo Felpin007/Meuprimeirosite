@@ -1,10 +1,25 @@
 body{
-     background-image: url("fundo.png");
+   background-color: red;
+    
+     
 
 }
 
-body{
+
+.container{
+
+    width: 80%;
+    margin: auto;
+
+}
+h1{
     text-align: center;
 
+}
+img{
+    width: 50%;
+}
+figure{
 
+    text-align: center;
 }
