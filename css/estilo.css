@@ -1,7 +1,9 @@
 body{
    background-color: red;
+   background-image: url("https://imagens.mdig.com.br/semana/sem452/sem452_027.gif");
+   color: red;
     
-     
+ 
 
 }
 
@@ -14,6 +16,9 @@ body{
 }
 h1{
     text-align: center;
+    color: red;
+    t
+    
 
 }
 img{
@@ -22,4 +27,9 @@ img{
 figure{
 
     text-align: center;
+    color: red;
+}
+div{
+
+    font-size: 2cm;
 }
