@@ -1,6 +1,6 @@
 body{
-   background-color: red;
-   background-image: url("https://imagens.mdig.com.br/semana/sem452/sem452_027.gif");
+   background-color: black;
+   background-image: url("https://s1.static.brasilescola.uol.com.br/be/e/image/formiga.jpg");
    color: red;
     
  
@@ -14,10 +14,16 @@ body{
     margin: auto;
 
 }
+
+title{
+    font-size: 300%;
+}
+
 h1{
     text-align: center;
-    color: red;
-    t
+    color: rgb(76, 0, 255);
+    font-size: 3em;
+    text-align: justify;
     
 
 }
@@ -27,9 +33,21 @@ img{
 figure{
 
     text-align: center;
-    color: red;
+    color: rgb(0, 255, 21);
 }
 div{
 
     font-size: 2cm;
+}
+.img_topo {
+    width: 100%
+}
+.img_corpo {
+    width: 40%;
+}
+p{
+    font-size: 3em;
+    color: rgb(255, 0, 0);
+    text-indent: 40px;
+    text-align: justify;
 }
