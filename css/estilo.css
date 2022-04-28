@@ -1,4 +1,10 @@
-
+body{
+background-color: black;
+background-image: url("https://my4kwallpapers.com/wp-content/uploads/2021/06/Anime-Wallpaper.jpg")
+}
+header{
+    text-align: center;
+}
 
 
 .container{
