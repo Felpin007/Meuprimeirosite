@@ -1,52 +1,12 @@
 body{
-background-color: black;
-background-image: url("https://my4kwallpapers.com/wp-content/uploads/2021/06/Anime-Wallpaper.jpg")
+background-color: greenyellow;
 }
 header{
     text-align: center;
+    font-size: large;
 }
-
-
-.container{
-
+.center{
+    margin: 1em auto; 
+    background: rgb(88, 221, 88);
     width: 80%;
-    margin: auto;
-
-}
-
-title{
-    font-size: 300%;
-}
-
-h1{
-    text-align: center;
-    color: rgb(76, 0, 255);
-    font-size: 3em;
-    text-align: justify;
-    
-
-}
-img{
-    width: 50%;
-}
-figure{
-
-    text-align: center;
-    color: rgb(0, 255, 21);
-}
-div{
-
-    font-size: 2cm;
-}
-.img_topo {
-    width: 100%
-}
-.img_corpo {
-    width: 40%;
-}
-p{
-    font-size: 3em;
-    color: rgb(255, 0, 0);
-    text-indent: 40px;
-    text-align: justify;
 }
