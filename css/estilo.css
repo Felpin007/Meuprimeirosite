@@ -1,12 +1,39 @@
 body{
-background-color: greenyellow;
+background-image : url(https://lh5.googleusercontent.com/p/AF1QipOM_1fQ-0bW2HWmJaVt9fQgabgBthKAiv_NGPXo=h1440);
+background-size: 100%;
+background-attachment: fixed;
 }
 header{
     text-align: center;
-    font-size: large;
+    font-size: larger;
+    font: arial;
+
 }
-.center{
-    margin: 1em auto; 
+
+.opa{
+    margin: 1cm auto; 
+    background: rgb(79, 187, 8);
+    width: 100%;
+    font-style: arial;
+    
+}
+
+.p{
+    font-size: large;
+    margin: 1cm auto; 
     background: rgb(88, 221, 88);
+    width: 90%;
+    font-style: arial;
+    
+}
+
+
+.history{
+    margin: 1cm auto; 
+    background: rgb(43, 226, 119);
     width: 80%;
+    
+}
+figure{
+    margin: 1cm auto; 
 }
