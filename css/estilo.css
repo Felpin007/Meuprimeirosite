@@ -70,4 +70,11 @@ figure{
     font-size: large;
     text-align: center;
 }
+.Ponto{
+    margin: 1cm auto; 
+    background: rgb(79, 187, 8);
+    width: 100%;
+    font-style: arial;
+
+}
 
