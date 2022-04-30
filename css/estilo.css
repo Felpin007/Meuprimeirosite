@@ -4,6 +4,7 @@ background-image : url(https://lh5.googleusercontent.com/p/AF1QipOM_1fQ-0bW2HWmJ
 background-size: 100%;
 background-attachment: fixed;
 }
+
 header{
     text-align: center;
     font-size: larger;
@@ -52,10 +53,14 @@ figure{
     display: inline-block;
     text-decoration: none;
     transition: background .4s
+
 }
 #menu-horizontal ul li a:hover {
     color: rgb(201, 201, 201);
     background-color: rgb(61, 61, 61);
+    transform: scale(1.1);
+
+
 }
 .titulo-historia{
         margin: 1cm auto; 
@@ -76,5 +81,17 @@ figure{
     width: 100%;
     font-style: arial;
 
+}
+.Za{
+    text-align: center;
+    font-size: large;
+    margin: 1cm auto; 
+    background: rgb(58, 163, 58);
+    width: 90%;
+    font-style: italic;
+}
+.Za p{
+    font-size: larger;
+    font: arial;
 }
 
