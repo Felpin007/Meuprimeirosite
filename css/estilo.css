@@ -3,6 +3,9 @@ body{
 background-image : url(https://lh5.googleusercontent.com/p/AF1QipOM_1fQ-0bW2HWmJaVt9fQgabgBthKAiv_NGPXo=h1440);
 background-size: 100%;
 background-attachment: fixed;
+text-align: center;
+font-size: larger;
+font: arial;
 }
 
     header{
@@ -13,10 +16,11 @@ background-attachment: fixed;
 }
 
 .opa{
-    margin: 1cm auto; 
-    background: rgb(79, 187, 8);
+
+    background: rgb(177, 255, 124);
     width: 100%;
     font-style: arial;
+    color: green;
     
 }
 
@@ -31,11 +35,20 @@ background-attachment: fixed;
 
 
 .history{
-    margin: 1cm auto; 
-    background: rgb(43, 226, 119);
-    width: 80%;
+    
+    background: rgb(46, 42, 42);
+    width: 100%;
+    padding: auto;
+    color: white;
+    float: none;
+    vertical-align: middle;
     
 }
+.history p{
+  
+
+}
+
 figure{
     margin: 1cm auto; 
 }
@@ -56,8 +69,8 @@ figure{
 
 }
 #menu-horizontal ul li a:hover {
-    color: rgb(201, 201, 201);
-    background-color: rgb(61, 61, 61);
+    color: rgb(121, 212, 51);
+    background-color: rgb(50, 100, 67);
     transform: scale(1.1);
 
 
@@ -94,4 +107,14 @@ figure{
     font-size: larger;
     font: arial;
 }
-
+figure img.face{
+    float: left;
+    border: transparent thin solid;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+    max-width: 186px;
+}
+#imgem{
+    float: left;
+    vertical-align:middle;margin:-70px 50px
+}
