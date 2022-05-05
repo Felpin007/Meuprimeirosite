@@ -1,4 +1,7 @@
-.fundo_vermelho{
+html{
+    scroll-behavior: smooth;
+}
+.fundo_azul{
     background-color: #22a1b2;
 }
 
@@ -15,7 +18,7 @@
 
 h1{
     text-align: center;
-    color: #fff;
+    color: black;
     font-weight: bolder;
 }
 
@@ -33,7 +36,7 @@ figure{
 
 p{
    font-size: 1.3em; 
-   color:#fff;
+   color:black;
    font-weight: bold;
    text-indent: 50px;
    text-align: justify;
@@ -41,4 +44,8 @@ p{
 
 .paragrafos_musica > p{
     font-size: 1em;
+}
+footer p{
+    background-color: black;
+    color: white;
 }
