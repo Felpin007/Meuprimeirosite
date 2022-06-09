@@ -1,51 +1,138 @@
 html{
     scroll-behavior: smooth;
 }
-.fundo_azul{
-    background-color: #22a1b2;
+
+.menu{
+    background-color: rgba(22, 10, 6, 0.3);
+    padding: 2%;
+    
 }
 
-.fundo_rosa{
-    background-color: blueviolet;
+.itens_menu{
+    text-align: center;
+}
+
+.itens_menu li{
+
+    font-size: 1.3em;
+    line-height: 1.5;
+}
+
+h1{
+    font-size: 2em;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.fundo_azul{
+    background-color: #4466FA
+}
+
+.fundo_azulclaro{
+    background-color: #4FC6F5
+}
+
+section{
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .container{
-
     width: 80%;
-    margin:auto;
-   
+    margin:auto;   
 }
 
 h1{
     text-align: center;
-    color: black;
+    color: #fff;
     font-weight: bolder;
 }
 
 .img_corpo{
-    width: 50%;
+    width:40%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
 }
 
 figure{
-    text-align: center;
+  text-align: center;
+    
 }
 
 .img_topo{
-    width: 50%;
+    width: 100%;
 }
 
 p{
    font-size: 1.3em; 
-   color:black;
+   color:#fff;
    font-weight: bold;
    text-indent: 50px;
    text-align: justify;
+   line-height: 1.5;        
 }
 
-.paragrafos_musica > p{
-    font-size: 1em;
+
+
+footer{
+    background-color: rgba(22, 10, 6, 0.3);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 2%;
 }
-footer p{
-    background-color: black;
-    color: white;
+
+.center{
+    text-align: center;
 }
+
+.itens_menu a:link, .itens_menu a:visited  {
+    color: #44FACB;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+
+.itens_menu a:hover{
+    background-color: rgba(45, 117, 177, 0.3);
+    padding: 0.8%;
+}
+
+.itens_menu a:active{
+    color: black;
+}
+
+#mais a:visited, #mais a:link{
+    color: #44FACB;
+}
+
+#mais a:hover{
+    color: #1742ff;
+}
+
+.botao{
+    width: 100px;
+    height: 40px;   
+    background-color: rgba(21, 88, 165, 0.596);
+    margin: auto; 
+    padding: 1.5%;
+    border-radius: 25px;
+}
+
+.botao p{
+    text-indent: 0;
+    text-align: center;
+}
+    
+
+.botao a:link, .botao a:visited{
+    color: #44FACB;
+
+}
+
+.botao:hover{
+    background-color: #1742ff;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
