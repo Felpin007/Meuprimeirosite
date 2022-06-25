@@ -131,4 +131,16 @@ footer{
 .botao:hover{
     background-color: #1742ff;
 }
+.direita{
+    float: right;
+    margin-left: 2%;
+    width: 40%;
+}
+
+.esquerda{
+    float:left;
+    margin-right: 2%;
+    width: 50%;
+}
+
 
