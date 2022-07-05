@@ -140,6 +140,55 @@ footer{
 .esquerda{
     float:left;
     margin-right: 2%;
-    width: 50%;
+    width: 40%;
 }
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 2%;
+    font-size: xx-large;
+  }
+  
+  td{
+    font-size: large;
+  }
+  
+  td,th{
+    border: 4px inset #00028b;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+  }
+  .menuu{
+    background-color: rgba(22, 10, 6, 0.3);
+    padding: 2%;
+    
+}
+
+.itens_menuu li{
+
+    font-size: 1.3em;
+    line-height: 1.5;
+}
+.itens_menuu a:link, .itens_menuu a:visited  {
+    color: #44FACB;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+
+.itens_menuu a:hover{
+    background-color: rgba(45, 117, 177, 0.3);
+    padding: 0.8%;
+}
+
+.itens_menuu a:active{
+    color: black;
+}
+.container section{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+        
+
 
