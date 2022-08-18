@@ -192,6 +192,9 @@ table{
 audio::-webkit-media-controls-panel{ 
     background-color:#0000FF !important; 
 }
+audio{
+    width: 80%;
+}
 
         
 
