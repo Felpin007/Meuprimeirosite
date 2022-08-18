@@ -189,6 +189,9 @@ table{
     margin-top: 2%;
     margin-bottom: 2%;
 }
+audio::-webkit-media-controls-panel{ 
+    background-color:#0000FF !important; 
+}
 
         
 
