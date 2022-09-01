@@ -13,6 +13,10 @@ html{
 .menu{
     background-color: rgba(22, 10, 6, 0.3);
     padding: 2%;
+.logo{
+    width:20%
+    text-align: center;
+    }
     
 }
 
