@@ -4,84 +4,102 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Teste CSS interno e Inline </title>
+    <title>CSS Interno</title>
     <style>
         body{
-            background-color: aqua;
+            background-color: blueviolet;
         }
-
         h1{
-            text-align: center;
-            font-weight: bold;
+            font-size: 2em;
+            background-color: #fff;
+            
         }
         p{
-            color: blueviolet;
+            background-color: aqua;
+            color: chartreuse;
         }
-                .topoesquerda{
+
+        .fixo{
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .main{
+            width: 100%;
+            height: 600px;
+            background-color: burlywood;
+            position: relative;
+            text-align: center;
+        }
+
+        .container{
+            margin-top: 100px ;
+        }
+
+        .topoesq{
+            width: 20%;
+            background-color: cadetblue;
             position: absolute;
             top: 16px;
             left: 16px;
-            font-size: 18px;
-            width: 20%;
-            background-color: chartreuse;
-
+           
         }
-                .topodireita{
+        .topodir{
+            width: 20%;
+            background-color: chocolate;
             position: absolute;
-            top: 16px;
+            top:16px;
             right: 16px;
-            font-size: 18px;
+            
+        }
+        .baixoesq{
             width: 20%;
             background-color: chartreuse;
-
-        }
-                       .baixoesquerda{
             position: absolute;
-            top: 16px;
+            bottom: 16px;
             left: 16px;
-            font-size: 18px;
-            width: 20%;
-            background-color: chartreuse;
-            bottom: 300px;
-
+            
         }
-                .baixodireita{
-            position: absolute;
-            top: 16px;
-            right: 16px;
-            font-size: 18px;
+        .baixodir{
             width: 20%;
-            background-color: chartreuse;
-            bottom: 300px;
-
+            background-color: darkolivegreen;
+            position: absolute;
+            bottom: 16px;
+            right: 16px;
         }
-                        .centro{
-            position: absolute;
-            top: 16px;
-            right: 16px;
-            font-size: 18px;
+        .centro{
             width: 20%;
-            background-color: chartreuse;
-
+            background-color: fuchsia;
+            position: absolute;
+            top:300px;
+            margin-left: 40%;
+            
         }
     </style>
 </head>
 <body>
     <header>
-        <h1 style="background-color:brown;color: cyan;"> Teste CSS interno e Inline </h1>
-        <p style="background-color: aquamarine; font-style: italic;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae esse atque autem rem aliquam. Iure laboriosam beatae in quidem possimus voluptatem, explicabo cupiditate aut minima natus quibusdam impedit quasi magni!</p>
-        <p style="background-color: aquamarine; font-style: italic;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, corporis molestias itaque, ut perferendis tempora voluptate quibusdam beatae ea voluptas omnis rem commodi laboriosam odit nostrum architecto, quaerat consectetur corrupti!</p>
+        <h1 class="fixo">Apredendo CSS Interno</h1>
+        <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem ipsam molestiae earum et quae. Provident voluptatibus, maiores placeat aperiam repellendus sint maxime ullam qui dolor quia blanditiis nulla facilis odio.</p> -->
+        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla delectus nemo ipsa iusto reiciendis? Dolores ab nulla nihil totam iusto mollitia veniam illo. Provident magni optio, officia fuga error dolores?</p>
+        <ul style="background-color: darkgoldenrod;font-weight: bold;">   
+            <li style="color: brown;">Eu estou com fome</li>
+            <li style="color: brown;">Eu quero comer</li>
+        </ul> -->
     </header>
-    <div class="main">
-        <h1>Testando....</h1>
-        <div class="container">
-            <div class="topoesquerda">TopoEsq</div>
-            <div class="topodireita"></div>
-            <div class="baixoesquerda"></div>
-            <div class="baixodireita"></div>
-            <div class="centro"></div>
+    <div class="container">
+        <h1>Testando posições</h1>
+        <div class = "main">
+            <div class="topoesquerdo">topoesq</div>
+            <div class="topodireita">topodir</div>
+            <div class="centro">centro</div>
+            <div class="baixoesquerda">baixoesq</div>
+            <div class="baixodireita">baixodir</div>
         </div>
+        
+    </div>   
 
-    </div>
 </body>
 </html>
