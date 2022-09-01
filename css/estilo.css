@@ -3,7 +3,12 @@
     src: url('../fonts/DynaPuff-VariableFont_wdth\,wght.ttf');
 }
 
-
+.header{
+    z-index: 1000;
+    width: 100%;
+    position: fixed;
+    
+}
 
 html{
     scroll-behavior: smooth;
@@ -51,7 +56,8 @@ section{
 
 .container{
     width: 80%;
-    margin:auto;   
+    margin:auto; 
+    position: relative;
 }
 
 h1{
