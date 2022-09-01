@@ -3,7 +3,7 @@
     src: url('../fonts/DynaPuff-VariableFont_wdth\,wght.ttf');
 }
 
-.header{
+header{
     z-index: 1000;
     width: 100%;
     position: fixed;
