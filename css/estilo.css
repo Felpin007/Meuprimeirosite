@@ -20,8 +20,11 @@ html{
     padding: 2%;
 }
 .logo{
-    width: 8%
     text-align: center;
+}
+.img_logo{
+
+    width: 22%;
 }
     
 
