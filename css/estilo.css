@@ -293,13 +293,43 @@ label {
     display: table;
     clear: both;
   }
+  
+  /* Altera configuração quanod a tela está menor que 600px */
+  @media screen and (max-width:600px) {
+
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+      }   
+      
+      .logo{
+        text-align: center;
+        
+    }
+
+    .img_logo{
+        width: 20%;
+    }
+
+
+    .banner{
+        margin-top: 40%;
+    }
+
+    .descer{
+        margin-top: 50%;
+    }
+
+
+  }
+
    /* Altera configuração quando a tela for maior que 601 px*/
    @media screen and (min-width:500px) {
 
     header{
         background-color: #222cb2;
         flex-direction: row;
-        padding: 3%;
+        padding: 2%;
     }    
 
     .itens_menu{
@@ -330,6 +360,7 @@ label {
     }
 
   }
+  
 
  
 
