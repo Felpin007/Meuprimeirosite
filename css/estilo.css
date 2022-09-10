@@ -4,10 +4,12 @@
 }
 
 header{
-    z-index: 1000;
-    width: 100%;
-    position: fixed;
-    
+    background-color: #2a50fd;
+    padding: 2%;
+    font-family: 'Gloria Hallelujah', cursive;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 html{
@@ -15,10 +17,6 @@ html{
     font-family: DynaPuff-VariableFont_wdth;
 }
 
-.menu{
-    background-color: rgba(22, 10, 6, 0.3);
-    padding: 2%;
-}
 .logo{
     text-align: center;
 }
@@ -27,17 +25,39 @@ html{
     width: 22%;
 }
     
-
+.fixo{
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+}
 
 .itens_menu{
     text-align: center;
 }
+
 
 .itens_menu li{
 
     font-size: 1.3em;
     line-height: 1.5;
 }
+
+section a:link{
+    color: #696969;
+}
+
+  
+  section a:visited {
+    color: #FFF; 
+}
+
+  
+  section a:hover{
+    color: #696969;
+}
+  
+
 
 h1{
     font-size: 2em;
@@ -228,7 +248,9 @@ margin-bottom: 12px;
 margin-top: 8px;
 }
 form{
-    box-sizing: border-box;
+    background-color: rgba(128,128,128, 0.5) ;
+    padding: 20px;
+    border-radius: 10px;
 
 }
 input[type=text],input[type=tel],input[type=email], select, textarea {
@@ -257,13 +279,13 @@ label {
   }
   .col-25 {
     float: left;
-    width: 35%;
+    width: 25%;
     margin-top: 6px;
   }
   
   .col-75 {
     float: left;
-    width: 65%;
+    width: 75%;
     margin-top: 6px;
   }
   .row:after {
@@ -271,20 +293,47 @@ label {
     display: table;
     clear: both;
   }
-  @media screen and (max-width: 400px) {
+   /* Altera configuração quando a tela for maior que 601 px*/
+   @media screen and (min-width:500px) {
 
-    .col-25, .col-75, input[type=submit]{
-            width: 100%;
-            margin-top: 0;
+    header{
+        background-color: #222cb2;
+        flex-direction: row;
+        padding: 3%;
+    }    
 
+    .itens_menu{
+        position: absolute;
+        right: 2%;      
+        width: 70%;
     }
 
-    .form{
-        background-color: rgb(69, 116, 245);
+    .itens_menu ul li{
+        display: inline;
+        margin-left: 1%;
     }
-   
-    
+    .img_logo{
+        width: 30%;
+    }
+
+    .logo{
+        width: 30%;
+        text-align: left;
+    }
+
+    .banner{
+        margin-top: 10%;
+    }
+
+    .descer{
+        margin-top: 10%;
+    }
+
   }
+
+ 
+
+ 
 
         
 
