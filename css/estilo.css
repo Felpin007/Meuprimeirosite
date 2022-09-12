@@ -308,7 +308,9 @@ label {
         text-align: center;
         
     }
-
+    .img_corpo{
+        width: 85%;
+    }
     .img_logo{
         width: 20%;
     }
