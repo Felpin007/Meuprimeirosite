@@ -255,7 +255,7 @@ form{
 
 }
 input[type=text],input[type=tel],input[type=email], select, textarea {
-    width: 90%;
+    width: 85%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 25px;
@@ -323,6 +323,7 @@ label {
     .descer{
         margin-top: 70%;
     }
+
 
 
   }
