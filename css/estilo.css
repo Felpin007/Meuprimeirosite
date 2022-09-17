@@ -15,7 +15,7 @@ header{
 .animacao_cores_menu{
     background: linear-gradient(90deg, rgb(214, 50, 50), #e27e21, #6ff124d5, #24ec8f, rgb(34, 121, 219) ,rgb(46, 34, 219),rgb(120, 34, 219),rgb(160, 34, 219));
     animation: colors 10s infinite ease;
-    background-size: 200% 200%;
+    background-size: 2200% 2200%;
 }
 
 @keyframes colors{
