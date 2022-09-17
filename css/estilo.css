@@ -10,7 +10,25 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
+.animacao_cores_menu{
+    background: linear-gradient(90deg, rgb(214, 50, 50), #e27e21, #6ff124d5, #24ec8f, rgb(34, 121, 219) ,rgb(46, 34, 219),rgb(120, 34, 219),rgb(160, 34, 219));
+    animation: colors 10s infinite ease;
+    background-size: 200% 200%;
+}
+
+@keyframes colors{
+    0%{
+  background-position: 0% 50%;
+    }
+    50%{
+  background-position: 100% 50%;
+    }
+    100%{
+  background-position: 0% 50% ;
+    }
+  }
 
 html{
     scroll-behavior: smooth;
